@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+.container{
+	font-size: 13px;
+	color: white;
+	background-color: #66cdaa;
+	width: 100%;
+}
+
+.wadah{
+	background-color: lightgrey;
+	justify-content: center;
+	width: 900px;
+	margin-left: 220px;
+	margin-top: 10px;	
+	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+.wadah2{
+	background-color: transparent;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+.wadah3{
+	background-color: whitesmoke;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+
+.kontener{
+	width: 1000px;
+	margin-top: 75px;
+	margin-bottom: 0 auto;
+	margin-left: 250px;
+}
+
+.menu-button{
+	background-color: transparent;
+	color: black;
+	padding: 13px;
+	font-size: 16px;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+
+.center-menu{
+	position: relative;
+	display: inline-block;
+	/*float: left;*/
+}
+
+.dropdown-menu{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	color: black;
+	box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-menu a{
+	color: black;
+	padding: 3px ;
+	text-decoration: blink;
+	display: block;
+	font-size: 12px;
+}
+
+.dropdown-menu a:hover{
+	background-color: lightgrey;
+	color: black;
+}
+
+.center-menu:hover .dropdown-menu{
+	display: block;
+}
+
+.center-menu:hover .menu-button{
+	background-color: lightgreen;
+}
+.card p {
+	margin-top: -10px;
+	margin-bottom: 1px;
+}
+.row .card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	transform: scale(1.02);
+}
+
+.icon-user{
+	position: absolute;
+	top: 18px;
+	right: 18px;
+}
+
+.cardx{
+	border-radius: 0;
+	border: 0;
+}
+
+.cardx > .cardx-header{
+	background: transparent;
+	border-bottom:1px solid #eee;
+}
+
+.valid {
+	float: right;
+	font-weight: normal;
+	margin-right: 5%;
+	color: red;
+}

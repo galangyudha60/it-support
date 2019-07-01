@@ -1,0 +1,6 @@
+https://www.w3schools.com/
+https://getbootstrap.com/
+https://angular.io/
+https://www.youtube.com/
+https://jquery.com/download/
+https://www.google.com/

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DAFTAR</title>
+<link rel="icon" href="assets/images/logo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/css1.css">
+    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="assets/js/angular.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head> 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparant fixed-top">
+      <div class="container">
+
+        
+        <a class="navbar-brand font-weight-bold" href="index.html"><img src="assets/images/logo.png" "height=60 width=60"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-4">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="mata_uang.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                MATA UANG
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"><i>Rp</i> Indonesia</a>
+                <a class="dropdown-item" href="#"><i>$</i> Singapore</a>
+                <a class="dropdown-item" href="#"><i>$</i> United States</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="akun_saya.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon fa fa-user"></i>
+                AKUN SAYA
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="daftar.html"><i>Daftar</i></a>
+                <a class="dropdown-item" href="login.html"><i>Login</i></a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="icon fas fa-heart"></i> DAFTAR KEINGINAN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="keranjang_belanja.html"><i class="icon fas fa-shopping-cart"></i> KERANJANG BELANJA <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html"><i class="icon fas fa-share"></i> SELESAI <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Cari Disini..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  <div class="kontener">
+    <div class="center-menu">
+      <button class="menu-button"><a href="perangkat_keras.html"> PERANGKAT KERAS </a></button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">AKSESORIS</a>
+        <a class="dropdown-item" href="#">AUDIO</a>
+        <a class="dropdown-item" href="#">DESKTOP</a>
+        <a class="dropdown-item" href="#">EKSTERNAL STORAGE</a>
+        <a class="dropdown-item" href="#">INTERNAL STORAGE</a>
+      </div>
+    </div>
+    <div class="center-menu">
+      <button class="menu-button"><a href="perangkat_lunak.html"> PERANGKAT LUNAK</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">SISTEM OPERASI</a>
+        <a class="dropdown-item" href="#">SOFTWARE KEAMANAN</a>
+        <a class="dropdown-item" href="#">SOFTWARE OFFICE</a>
+        <a class="dropdown-item" href="#">MEDIA PENDIDIKAN</a>
+      </div>
+    </div>
+    <div class="center-menu">
+      <button class="menu-button"><a href="game.html"> GAME</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">REAL TIME STRATEGY</a>
+        <a class="dropdown-item" href="#">FIRST PERSON SHOOTER</a>
+        <a class="dropdown-item" href="#">LIFE SIMULATION GAME </a>
+        <a class="dropdown-item" href="#">ADVENTURE</a>
+        <a class="dropdown-item" href="#">OPEN WORLD</a>
+      </div>
+    </div>
+    <div class="center-menu">
+      <button class="menu-button"><a href="perangkat_kamera_keamanan.html"> PERANGKAT KAMERA KEAMANAN</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">CCTV</a>
+        <a class="dropdown-item" href="#">DIGITAL VIDEO RECORDER</a>
+        <a class="dropdown-item" href="#">IP CAMERA</a>
+      </div>
+    </div>
+    <div class="center-menu">
+      <button class="menu-button"><a href="blog.html"> BLOG</a></button>
+    </div>
+  </div>
+
+
+	<div class="wadah">
+
+    <form class="well form-horizontal" action="#" onsubmit="return validation()">
+<fieldset>
+
+<!-- Form Name -->
+<legend><center><h2><b>Registration Form</b></h2></center></legend><hr><br>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">First Name</label> 
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Last Name</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+  
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Username</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="user" id="user" placeholder="Username" class="form-control" type="text"><br>
+    </div>
+      <span id="username" class="text-danger font-weight-bold"> </span>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Password</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="pass" id="pass" placeholder="Password" class="form-control" type="password">
+    </div>
+      <span id="passwords" class="text-danger font-weight-bold"> </span>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Confirm Password</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="conpass" id="conpass" placeholder="Confirm Password" class="form-control" type="password">
+  <span id="confrmpass" class="text-danger font-weight-bold"> </span>
+    </div>
+      <span id="confrmpass" class="text-danger font-weight-bold"> </span>
+  </div>
+</div>
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="emails" id="emails" placeholder="E-Mail Address" class="form-control" type="text">
+    </div>
+      <span id="emailids" class="text-danger font-weight-bold"> </span>
+      <span id="emailids" class="text-danger font-weight-bold"> </span>
+  </div>
+</div>
+
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label">Contact No.</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="mobile" id="mobileNumber" placeholder="(+81)" class="form-control" type="text">
+  <span id="mobileno" class="text-danger font-weight-bold"> </span>
+    </div>
+    <span id="mobileno" class="text-danger font-weight-bold"> </span>
+  </div>
+</div>
+
+<div class="col-md-4 control-label">
+  <input type="checkbox" ng-model="centang" ng-true-value="'Ingat Sandi'" ng-false-value="'Tidak'"> Saya yakin sudah memenuhi syarat
+</div>
+<!-- Button -->
+<div class="form-group">
+  <div class="col-md-4"><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDAFTAR <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+
+
+    <div class="container text-white bg-dark p-2">
+      <div class="row">
+        <div class="col-sm-3 col-md-6 col-lg-12">
+          <div class="row text-center">
+            <div class="col-sm-3 col-md-6 col-lg-4">
+              <ul class="list-unstyled">
+                <li class="btn-link"> <a href="https://www.facebook.com/hendrikagalang">Hendrika Galang</a> </li>
+                <li class="btn-link"> <a href="#">Busthomi Aulia</a> </li>
+                <li class="btn-link"> <a href="#">Zul Fahmi A</a> </li><br>
+                <li class="btn-link"> <a href="contact_us.html">CONTACT US</a> </li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-12">
+              <ul class="list-unstyled">
+                <li class="btn-link"> <a href="https://getbootstrap.com/">BOOTSTRAP 4</a> </li>
+                <li class="btn-link"> <a href="https://angular.io/">ANGULAR JS</a> </li>
+                <li class="btn-link"> <a href="https://www.youtube.com/">YOUTUBE</a> </li>
+                <li class="btn-link"> <a href="https://jquery.com/download/">JQUERY</a> </li>
+                <li class="btn-link"> <a href="https://www.w3schools.com/">W3SCHOOLS.COM</a> </li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-12">
+          <address>
+            <strong>IT SUPPORT, Inc.</strong><br>
+            Kami menyediakan, Apa yang Anda inginkan<br>
+            Yogyakarta 82661, INDONESIA<br>
+            <abbr title="Phone">P:</abbr> (+82) 81-226-001-438
+          </address>
+          <address>
+            <strong>EMAIL</strong><br>
+            <a href="mailto:Hendrika.1575@students.amikom.ac.id">Hendrika.1575@students.amikom.ac.id</a>
+          </address>
+        </div>
+          </div>
+        </div><br>
+      
+        <div class="col-sm-3 col-md-6 col-lg-3">
+    </div>
+    <div class="col-sm-3 col-md-9 col-lg-6" style="background-color:transparent;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.5978048487905!2d110.34646621432924!3d-8.040334682517845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7baa11a5166da5%3A0x2317e7e411fe15fc!2sGua+Langse!5e0!3m2!1sid!2sid!4v1561823722259!5m2!1sid!2sid" align="center-menu" width="505" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm-3 col-md-6 col-lg-3">
+    </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div>
+        <div class="row">
+          <div class="col-12">
+            <p> IT Support - Kami Mendukung IT Anda Sejak 2019.</p>
+            <p> Copyright © 2019-Akhir Hayat   IT Support.com. All Rights is Reserved ®</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- /.container -->
+    </script>
+
+    <script type="text/javascript">
+      function validation() {
+
+        var user = document.getElementById('user').value;
+        var pass = document.getElementById('pass').value;
+        var confirmpass = document.getElementById('conpass').value;
+        var mobileNumber = document.getElementById('mobileNumber').value;
+        var emails = document.getElementById('emails').value;
+
+
+
+
+
+        if (user == "") {
+          document.getElementById('username').innerHTML = " ** Diisi Username-nya Boss!!!";
+          return false;
+        }
+        if ((user.length <= 5) || (user.length > 20)) {
+          document.getElementById('username').innerHTML = " ** Yaa kali pendek amat, minimal 5 maksimal 20 Boss!!!";
+          return false;
+        }
+        if (!isNaN(user)) {
+          document.getElementById('username').innerHTML = " ** Username nya pakai huruf semua aja! Alay amat";
+          return false;
+        }
+
+
+
+
+
+
+
+        if (pass == "") {
+          document.getElementById('passwords').innerHTML = " ** Password-nya diisi dulu";
+          return false;
+        }
+        if ((pass.length <= 5) || (pass.length > 20)) {
+          document.getElementById('passwords').innerHTML = " ** Yaa kali password pendek amat.. minimal 5 lah";
+          return false;
+        }
+
+
+        if (pass != confirmpass) {
+          document.getElementById('confrmpass').innerHTML = " ** Pelan-pelan aja.. itu password lu belum samaa !!";
+          return false;
+        }
+
+
+
+        if (confirmpass == "") {
+          document.getElementById('confrmpass').innerHTML = " ** Dikonfirmasi dulu passwordnya Pak";
+          return false;
+        }
+
+
+
+
+        if (mobileNumber == "") {
+          document.getElementById('mobileno').innerHTML = " ** Wajib mengisi nomor telepon";
+          return false;
+        }
+        if (isNaN(mobileNumber)) {
+          document.getElementById('mobileno').innerHTML = " ** Yaa kali nomor pakai huruf.. Digit semuaaa!!!";
+          return false;
+        }
+        if (mobileNumber.length <= 10) {
+          document.getElementById('mobileno').innerHTML = " ** Pakai perdana Apaan pendek amat? ";
+          return false;
+        }
+
+
+
+        if (emails == "") {
+          document.getElementById('emailids').innerHTML = " ** Diisi dulu emailnya";
+          return false;
+        }
+        if (emails.indexOf('@') <= 0) {
+          document.getElementById('emailids').innerHTML = " ** Kurang '@' kalau gak ya '@' nya salah tempat";
+          return false;
+        }
+
+        if ((emails.charAt(emails.length - 4) != '.') && (emails.charAt(emails.length - 3) != '.')) {
+          document.getElementById('emailids').innerHTML = " ** . Salah Posisi";
+          return false;
+        }
+      }
+    </script>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
